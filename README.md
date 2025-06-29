@@ -27,8 +27,77 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the repository**  
-```bash
+1. Clone the repository**  
+```
 git clone https://github.com/fasilkhannageri/gps-feller-machine-analysis.git
 cd gps-feller-machine-analysis
-fasilllkdcsjf
+```
+
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
+3. Run analysis
+Open demo.ipynb in Jupyter Notebook and run all cells.
+
+4. Export animation
+Ensure ffmpeg is installed to generate the .mp4.
+On MacOS
+```
+brew install ffmpeg
+```
+(Requires Homebrew. Install it first if not present.)
+
+On Windows:
+
+1. Download from: https://ffmpeg.org/download.html
+
+2. Extract the .zip archive
+
+3. Add the bin/ folder to your system PATH environment variable
+
+To check installation:
+```
+ffmpeg -version
+```
+▶️ How to Run
+Open the demo.ipynb notebook and execute cells step-by-step:
+
+Data loading (CSV, GeoTIFF, GPKG)
+
+Line segment creation and filtering
+
+Block intersection and time calculation
+
+Anomaly logging to block_anomalies.csv
+
+Frame generation and animation
+
+Summary outputs:
+
+block_total_time.csv
+
+gps_animation.mp4
+
+📊 Output Summary
+block_total_time.csv: Total time spent by the feller machine within each block
+
+block_anomalies.csv: Time gaps >5 minutes, with location context and block IDs
+
+gps_animation.mp4: Visual journey of the machine with color-coded temporal segments
+
+🧠 Applications
+
+Forest operation monitoring
+
+Anomaly detection in machinery usage
+
+Geospatial-temporal analytics for sustainability studies
+
+
+
+
+
+
+
+
