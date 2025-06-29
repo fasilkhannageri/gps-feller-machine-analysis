@@ -78,6 +78,7 @@ ffmpeg -version
 Summary outputs:
 
 - block_total_time.csv
+- block_anomalies.csv
 
 - gps_animation.mp4
 
