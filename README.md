@@ -94,6 +94,39 @@ Anomaly detection in machinery usage
 
 Geospatial-temporal analytics for sustainability studies
 
+🕒 Time Calculation per Forest Block — Summary
+Point-to-Point Segments
+The GPS data is first sorted by time, and the code creates line segments between every pair of consecutive GPS points.
+
+Duration Check
+Each segment’s time duration (in minutes) is calculated:
+
+If duration ≤ 5 min: the segment is valid and used for time calculations.
+
+If duration > 5 min: the segment is flagged as an anomaly and excluded from block time accumulation (but saved in a separate CSV).
+
+Intersection with Blocks
+Valid segments are intersected with forest blocks (polygon boundaries). If a line crosses multiple blocks, the intersection is computed.
+
+Time Distribution
+For each intersected block:
+
+The segment’s total length is calculated.
+
+The fraction of the segment that lies within each block is computed.
+
+The block time is then estimated as:
+Time_In_Block = Segment_Duration × Fraction_Within_Block
+
+Block-wise Summation
+For each block, all its Time_In_Block values are summed up to produce the total operation time the feller machine spent inside that block.
+
+Final Output
+
+A CSV file block_total_time.csv contains the valid time per block.
+
+Anomalous segments are stored in block_anomalies.csv for transparency and review.
+
 
 
 
