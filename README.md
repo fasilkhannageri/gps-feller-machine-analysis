@@ -132,37 +132,7 @@ Time_In_Block = Segment_Duration × Fraction_Within_Block
 Block-wise Summation
 For each block, all its Time_In_Block values are summed up to produce the total operation time the feller machine spent inside that block.
 
-Key Formulas:
-Segment Fraction in Block:
-
-Fraction
 =
-Segment_Length (part in block)
-Total_Length (full segment)
-Fraction= 
-Total_Length (full segment)
-Segment_Length (part in block)
-​
- 
-Time Allocation:
-
-Time_In_Block
-=
-Fraction
-×
-Duration_Min (total segment time)
-Time_In_Block=Fraction×Duration_Min (total segment time)
-Example:
-If a 4-minute movement segment:
-
-Total length: 100 meters
-
-Part in Block A: 60 meters → Fraction = 0.6 → Time = 2.4 minutes
-
-Part in Block B: 40 meters → Fraction = 0.4 → Time = 1.6 minutes
-
-These times are summed across all segments for each block in the final summary.
-
 5. Final Output
 
 - A CSV file block_total_time.csv contains the valid time per block.
