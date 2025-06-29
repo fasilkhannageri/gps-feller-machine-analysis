@@ -42,13 +42,14 @@ Open demo.ipynb in Jupyter Notebook and run all cells.
 
 4. Export animation
 Ensure ffmpeg is installed to generate the .mp4.
-On MacOS
+
+- On MacOS
 ```
 brew install ffmpeg
 ```
 (Requires Homebrew. Install it first if not present.)
 
-On Windows:
+- On Windows:
 
 1. Download from: https://ffmpeg.org/download.html
 
