@@ -1,0 +1,19 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore animation frames and videos
+frames/
+*.png
+*.mp4
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
