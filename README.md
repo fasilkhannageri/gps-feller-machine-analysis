@@ -138,6 +138,12 @@ For each block, all its Time_In_Block values are summed up to produce the total 
 
 - Anomalous segments are stored in block_anomalies.csv for transparency and review.
 
+####
+for any assistance or information please dont hesitate to contact me at,
+
+Name: Fasilkhan Nageri
+email. fasilkhan.nageri@studenti.unipd.it
+
 
 
 
