@@ -62,39 +62,39 @@ ffmpeg -version
 ```
 ▶️ How to Run
 
-Open the demo.ipynb notebook and execute cells step-by-step:
+- Open the demo.ipynb notebook and execute cells step-by-step:
 
-Data loading (CSV, GeoTIFF, GPKG)
+- Data loading (CSV, GeoTIFF, GPKG)
 
-Line segment creation and filtering
+- Line segment creation and filtering
 
-Block intersection and time calculation
+- Block intersection and time calculation
 
-Anomaly logging to block_anomalies.csv
+- Anomaly logging to block_anomalies.csv
 
-Frame generation and animation
+- Frame generation and animation
 
 Summary outputs:
 
-block_total_time.csv
+- block_total_time.csv
 
-gps_animation.mp4
+- gps_animation.mp4
 
 📊 Output Summary
 
-block_total_time.csv: Total time spent by the feller machine within each block
+- block_total_time.csv: Total time spent by the feller machine within each block
 
-block_anomalies.csv: Time gaps >5 minutes, with location context and block IDs
+- block_anomalies.csv: Time gaps >5 minutes, with location context and block IDs
 
-gps_animation.mp4: Visual journey of the machine with color-coded temporal segments
+- gps_animation.mp4: Visual journey of the machine with color-coded temporal segments
 
 🧠 Applications
 
-Forest operation monitoring
+- Forest operation monitoring
 
-Anomaly detection in machinery usage
+- Anomaly detection in machinery usage
 
-Geospatial-temporal analytics for sustainability studies
+- Geospatial-temporal analytics for sustainability studies
 
 🕒 Time Calculation per Forest Block — Summary
 
@@ -132,9 +132,9 @@ For each block, all its Time_In_Block values are summed up to produce the total 
 
 5. Final Output
 
-A CSV file block_total_time.csv contains the valid time per block.
+- A CSV file block_total_time.csv contains the valid time per block.
 
-Anomalous segments are stored in block_anomalies.csv for transparency and review.
+- Anomalous segments are stored in block_anomalies.csv for transparency and review.
 
 
 
