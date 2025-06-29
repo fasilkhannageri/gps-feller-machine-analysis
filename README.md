@@ -80,6 +80,7 @@ block_total_time.csv
 gps_animation.mp4
 
 📊 Output Summary
+
 block_total_time.csv: Total time spent by the feller machine within each block
 
 block_anomalies.csv: Time gaps >5 minutes, with location context and block IDs
@@ -95,6 +96,7 @@ Anomaly detection in machinery usage
 Geospatial-temporal analytics for sustainability studies
 
 🕒 Time Calculation per Forest Block — Summary
+
 Point-to-Point Segments
 The GPS data is first sorted by time, and the code creates line segments between every pair of consecutive GPS points.
 
