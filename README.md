@@ -132,12 +132,13 @@ Time_In_Block = Segment_Duration × Fraction_Within_Block
 Block-wise Summation
 For each block, all its Time_In_Block values are summed up to produce the total operation time the feller machine spent inside that block.
 
-***
+
 5. Final Output
 
 - A CSV file block_total_time.csv contains the valid time per block.
 
 - Anomalous segments are stored in block_anomalies.csv for transparency and review.
+---
 
 ####
 for any assistance or information please dont hesitate to contact me at,
