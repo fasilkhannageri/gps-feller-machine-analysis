@@ -12,6 +12,30 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 
 ## 🗂️ Folder Structure
 
+```
+📁 gps-feller-machine-analysis/
+│
+├── 📁 Data/                         # Input data files
+│   ├── GEOTIFF_Sample.tif         # Raster basemap of the area (Sugar Hill Forest, NY)
+│   ├── GPS_Sample.csv             # Raw GPS points with WKT geometry and timestamps
+│   └── Blocks_Sample.gpkg         # Polygon geometries of forest blocks (GeoPackage format)
+│
+├── 📁 Outputs/                     # Automatically generated outputs
+│   ├── block_total_time.csv       # Summary of total time spent per block
+│   └── block_anomalies.csv        # Log of GPS segment anomalies >5 minutes
+│
+├── 📁 frames/                      # Temporary folder with animation frames
+│   └── frame_####.png             # Individual animation frame images (used by ffmpeg)
+│
+├── gps_analysis_feller_machine.ipynb  # Main analysis Jupyter Notebook
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Files to be excluded from version control
+└── README.md                      # Project overview and instructions
+
+
+
+
+```
 📁 Data/
 
 ├── GEOTIFF_Sample.tif # Raster basemap
