@@ -61,7 +61,7 @@ To check installation:
 ```
 ffmpeg -version
 ```
-##▶️ How to Run
+## ▶️ How to Run
 
 - Open the demo.ipynb notebook and execute cells step-by-step:
 
