@@ -24,7 +24,7 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 │   ├── block_total_time.csv       # Summary of total time spent per block
 │   └── block_anomalies.csv        # Log of GPS segment anomalies >5 minutes
 │
-├── 📁 frames/                      # Temporary folder with animation frames
+├── 📁 frames/                      # Folder with animation frames
 │   └── frame_####.png             # Individual animation frame images (used by ffmpeg)
 │
 ├── gps_analysis_feller_machine.ipynb  # Main analysis Jupyter Notebook
