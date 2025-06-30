@@ -36,23 +36,6 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 
 
 ```
-📁 Data/
-
-├── GEOTIFF_Sample.tif # Raster basemap
-
-├── GPS_Sample.csv # Raw GPS points (WKT + timestamp)
-
-└── Blocks_Sample.gpkg # Polygon geometries of forest blocks
-
-📁 Outputs/ (Will create automatically)
-
-└── block_total_time.csv # Final summary of time per block
-
-📁 frames/
-
-└── frame_####.png # Animation frames
-
-📄 demo.ipynb # Full analysis notebook
 
 ## ⚙️ Setup Instructions
 
