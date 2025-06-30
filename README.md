@@ -16,7 +16,7 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 📁 gps-feller-machine-analysis/
 │
 ├── 📁 Data/                         # Input data files
-│   ├── GEOTIFF_Sample.tif         # Raster basemap of the area (Sugar Hill Forest, NY)
+│   ├── GEOTIFF_Sample.tif         # Raster basemap of the area
 │   ├── GPS_Sample.csv             # Raw GPS points with WKT geometry and timestamps
 │   └── Blocks_Sample.gpkg         # Polygon geometries of forest blocks (GeoPackage format)
 │
