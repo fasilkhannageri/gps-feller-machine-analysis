@@ -13,8 +13,11 @@ This repository contains a geospatial analysis pipeline to assess and visualize 
 ## 🗂️ Folder Structure
 
 📁 Data/
+
 ├── GEOTIFF_Sample.tif # Raster basemap
+
 ├── GPS_Sample.csv # Raw GPS points (WKT + timestamp)
+
 └── Blocks_Sample.gpkg # Polygon geometries of forest blocks
 
 📁 Outputs/ (Will create automatically)
