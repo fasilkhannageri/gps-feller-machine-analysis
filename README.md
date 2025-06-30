@@ -75,14 +75,9 @@ ffmpeg -version
 
 - Frame generation and animation
 
-Summary outputs:
 
-- block_total_time.csv
-- block_anomalies.csv
 
-- gps_animation.mp4
-
-📊 Output Summary
+## 📊 Output Summary
 
 - block_total_time.csv: Total time spent by the feller machine within each block
 
@@ -90,7 +85,7 @@ Summary outputs:
 
 - gps_animation.mp4: Visual journey of the machine with color-coded temporal segments
 
-🧠 Applications
+## 🧠 Applications
 
 - Forest operation monitoring
 
@@ -98,7 +93,7 @@ Summary outputs:
 
 - Geospatial-temporal analytics for sustainability studies
 
-🕒 Time Calculation per Forest Block — Summary
+## 🕒 Time Calculation per Forest Block — Summary
 
 1. Point-to-Point Segments
 
@@ -140,7 +135,7 @@ For each block, all its Time_In_Block values are summed up to produce the total 
 - Anomalous segments are stored in block_anomalies.csv for transparency and review.
 ---
 
-####
+## 
 for any assistance or information please dont hesitate to contact me at,
 
 Name: Fasilkhan Nageri
